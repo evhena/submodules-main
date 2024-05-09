@@ -7,3 +7,6 @@
 [submodule "example-submodule"]
 	path = example-submodule
 	url = https://github.com/githubtraining/example-submodule.git
+[submodule "src/subm"]
+	path = src/subm
+	url = git@github.com:evhena/submodule-2.git
