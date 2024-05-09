@@ -1,6 +1,9 @@
 [submodule "submodule-1"]
-	path = submodule-1
+	path = .modules/submodule-1
 	url = https://github.com/evhena/submodule-1.git
 [submodule "submodule-2"]
-	path = submodule-2
+	path = ./public/submodule-2
 	url = https://github.com/evhena/submodule-2.git
+[submodule "example-submodule"]
+	path = example-submodule
+	url = https://github.com/githubtraining/example-submodule.git

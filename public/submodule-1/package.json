@@ -1,17 +1,16 @@
 {
-  "name": "submodules-main",
+  "name": "submodule-1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "copy-submodule-data": "mkdir -p public/data && cp -r submodule-1/src public/data",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4",
-    "gogipper_trim_video_modal": "git+https://x-token-auth:ATCTT3xFfGN0z41lDO5LBvWwvCvGtB6jBm7ZvF0OGunJ4hOdb1F8-H8UnISssr3zrLUe8gxX-IFQG5G7MVc67nw3LFhfbdJDMQiVIzhgpKaHZhzQUXljeVe0dFcjT-ERT6FpfCVLGywMfBLH7jxBHjcrfvePqP0XCaniUrFaBrgMxKW4wazmSkE=B2667AD9@bitbucket.org/gippermedia/gogipper_trim_video_modal.git#semver:^1.0.4"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -38,9 +37,8 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+    "@babel/plugin-transform-object-rest-spread": "^7.20.7",
     "@babel/preset-env": "^7.24.5",
-    "@babel/preset-react": "^7.24.1",
-    "app-b-dashboard": "file:./submodule-1/src"
+    "@babel/preset-react": "^7.24.1"
   }
 }
