@@ -7,7 +7,10 @@ import './App.css';
 
 function App() {
   async function load() {
-    let hi = await import('./sub-module/dist/hi.bundle.js');
+    // let hi = await import('../public/sub-module/dist/hi.bundle.js');
+    let hi = await import(
+      'https://raw.githubusercontent.com/evhena/sub-module/main/dist/print.bundle.js'
+    );
     hi(); // Hello!
   }
 
@@ -19,7 +22,9 @@ function App() {
   return (
     <div className="App">
       <img src={logo} className="App-logo" alt="logo" />
+
       <button onClick={() => load()}>Click me</button>
+
       <p>
         Edit <code>src/App.js</code> and save to reload.
       </p>
