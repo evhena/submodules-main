@@ -10,3 +10,6 @@
 [submodule "src/subm"]
 	path = src/subm
 	url = git@github.com:evhena/submodule-2.git
+[submodule "sub-module"]
+	path = sub-module
+	url = https://github.com/evhena/sub-module.git

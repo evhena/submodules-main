@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./AvenirNextLTPro-Light.woff') format('woff'),
+    url('./AvenirNextLTPro-Light.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+.hello {
+  color: red;
+  font-family: 'MyFont';
+  background: url('./icon.png');
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-size: contain;
+  height: 100vh;
+}
